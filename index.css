@@ -472,6 +472,10 @@ body {
 
 ol {
   padding-left: 2em;
+  &.projects li {
+      display: block;
+    }
+
   li {
     display: inline-block;
   }
@@ -485,6 +489,17 @@ ol {
   }
 }
 
+.contacts {
+  margin: 7px 0;
+  a {
+    &:after {
+      content: " ◌︎ ";
+    }
+    &:last-child::after {
+      content: "";
+    }
+  }
+}
 main {
   .main {
     max-width: 800px;
