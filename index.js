@@ -2,7 +2,11 @@
   // Define the CSS variables
   const colors = new Array(6).fill(0).map((_, i) => {
     const randomHue = Math.floor(Math.random() * 360);
-    return `hsla(${randomHue}, 95%, 23%, 0.06);`;
+    if(i%2){
+        return `hsl(0deg 0% 99.07% / 88%)`
+    }
+    return `hsl(0deg 0% 62.04% / 12%)`;
+    return `hsla(${randomHue}, 95%, 28%, 0.24);`;
   });
 console.log(colors)
   // Inject the CSS variables into the HTML page
