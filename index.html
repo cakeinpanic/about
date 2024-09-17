@@ -9,10 +9,25 @@
       crossorigin=""
       data-precedence="next"
     />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=PT+Mono&family=Sono:wght@200..800&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Mono&family=Sono:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans+JP:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans+JP:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Katya Pavlenko</title>
     <meta name="description" content="Software developer from 🇮🇱" />
@@ -24,89 +39,161 @@
       class="flex min-h-screen flex-col items-center justify-center font-mono"
     >
       <div class="flex flex-col gap-3 break-words p-2">
-        <h1 class="cursor-pointer text-3xl">Katya Pavlenko</h1>
-        <h3 class="text-2xl font-semibold">
-          Frontend Engineer from Tel Aviv, Israel 🇮🇱
-        </h3>
-        <img src="https://avatars.githubusercontent.com/u/588916?v=4" alt="Katya Pavlenko" class="avatar" />
+        <div class="flex flex-row name-row">
+          <img
+            src="https://avatars.githubusercontent.com/u/588916?v=4"
+            alt="Katya Pavlenko"
+            class="avatar"
+          />
+          <div class="flex flex-col">
+            <h1 class="cursor-pointer text-3xl">Katya Pavlenko</h1>
+            <h3 class="text-2xl font-semibold">
+              Javascript Engineer from Tel Aviv, Israel 🇮🇱
+            </h3>
+          </div>
+        </div>
         <div class="main">
-          I'm a frontend engineer with 10+ years of commercial experience (and even longer of coding for fun).
-          I love programming and can create any solution needed (or explain why
-          exactly it can not be done) <br />
-          <br />
-          I work with everything but especially ❤️:
-          <ol>
-            <li>Angular</li>
-            <li>Any types of bots</li>
-            <li>CI/CD pipelines</li>
-            <li>Hackathons</li>
-            <li>Instant noodles</li>
-          </ol>
-          <br/>
-          Projects I'd like to highlight ❤️:
-          <ol class="projects">
-          
-            <li><a class="underline decoration-teal-500 decoration-dotted decoration-2 hover:text-teal-500 hover:duration-300 hover:ease-in" href="https://cakeinpanic.github.io/night-insight-site/" target="_blank">Night insight telegram bot</a></li>
-            <li><a class="underline decoration-teal-500 decoration-dotted decoration-2 hover:text-teal-500 hover:duration-300 hover:ease-in" href="https://repeater.one/" target="_blank">Repeater telegram bot</a></li>
-            <li><a class="underline decoration-teal-500 decoration-dotted decoration-2 hover:text-teal-500 hover:duration-300 hover:ease-in" href="https://github.com/cakeinpanic/jira-description-action" target="_blank">Github aciton for integration with jira</a></li>
-            <li><a class="underline decoration-teal-500 decoration-dotted decoration-2 hover:text-teal-500 hover:duration-300 hover:ease-in"href="https://ldjam.com/events/ludum-dare/49/unstable-light" target="_blank">Ludum dare gamejam game</a></li>
-            <li><a class="underline decoration-teal-500 decoration-dotted decoration-2 hover:text-teal-500 hover:duration-300 hover:ease-in" href="https://ldjam.com/events/ludum-dare/53/return-to-sender-3" target="_blank">Another ludum dare gamejam game</a></li>
-          </ol>
-<br/>
-          Reach out to me to work together, I'm interested in small/medium
-          projects and cool collaborations!
-        </span>
-    
-        <div class="contacts flex flex-row flex-wrap gap-2">
-          <a
-            class="underline decoration-teal-500 decoration-dotted decoration-2 hover:text-teal-500 hover:duration-300 hover:ease-in"
-            href="https://github.com/cakeinpanic"
-            target="_blank"
-            >Github</a
-          ><a
-            class="underline decoration-teal-500 decoration-dotted decoration-2 hover:text-teal-500 hover:duration-300 hover:ease-in"
-            href="https://t.me/btw_katerina"
-            target="_blank"
-            >Telegram</a
-          >
-          <a
-            class="underline decoration-teal-500 decoration-dotted decoration-2 hover:text-teal-500 hover:duration-300 hover:ease-in"
-            href="mailto:cakeinpanic@gmail.com"
-            target="_blank"
-            >cakeinpanic@gmail.com</a
-          >
+          <div class="info-block info-block-1">
+            Hi! I'm a javascript engineer with 10+ years of commercial
+            experience <i>and even longer of coding for fun</i>.<br />
+            I love programming (for real!) and can create any solution needed
+            <i>or explain why exactly it can not be done</i>
+          </div>
+        
+          <div class="info-block info-block-2">
+            I work with lots of technologies but especially ❤️:
+            <ol>
+              <li>angular</li>
+              <li>chatbots (telegram, whatsapp, slack)</li>
+              <li>CI/CD</li>
+              <li>hackathons</li>
+              <li>instant noodles</li>
+            </ol>
+            <br />
+            Reach out to me to work together, I'm interested in small/medium
+            projects, cool collaborations and hackathons!
+          </div>
+       
+          <div class="flex flex-row two-col">
+            <div class="info-block info-block-3">
+              <span class="bold"> Contacts</span>
+              <div class="contacts flex flex-col flex-wrap gap-2">
+                <a
+                  class="underline decoration-teal-500 decoration-dotted decoration-2 hover:text-teal-500 hover:duration-300 hover:ease-in"
+                  href="https://github.com/cakeinpanic"
+                  target="_blank"
+                  >Github</a
+                ><a
+                  class="underline decoration-teal-500 decoration-dotted decoration-2 hover:text-teal-500 hover:duration-300 hover:ease-in"
+                  href="https://t.me/btw_katerina"
+                  target="_blank"
+                  >Telegram</a
+                ><a
+                  class="underline decoration-teal-500 decoration-dotted decoration-2 hover:text-teal-500 hover:duration-300 hover:ease-in"
+                  href="https://x.com/cakeinpanic"
+                  target="_blank"
+                  >Twitter</a
+                ><a
+                  class="underline decoration-teal-500 decoration-dotted decoration-2 hover:text-teal-500 hover:duration-300 hover:ease-in"
+                  href="https://www.linkedin.com/in/kpavlenko/"
+                  target="_blank"
+                  >Linkedin</a
+                >
+                <a
+                  class="underline decoration-teal-500 decoration-dotted decoration-2 hover:text-teal-500 hover:duration-300 hover:ease-in"
+                  href="mailto:cakeinpanic@gmail.com"
+                  target="_blank"
+                  >cakeinpanic@gmail.com</a
+                >
+              </div>
+            </div>
+            <div class="info-block info-block-4">
+              <span class="bold">Links</span>
+              <div class="contacts flex flex-col flex-wrap gap-2">
+                <div>
+                  <a
+                    class="underline decoration-teal-500 decoration-dotted decoration-2 hover:text-teal-500 hover:duration-300 hover:ease-in"
+                    href="https://cakeinpanic.medium.com"
+                    target="_blank"
+                    >Medium blog</a
+                  >
+                </div>
+                <div>
+                  <a
+                    class="underline decoration-teal-500 decoration-dotted decoration-2 hover:text-teal-500 hover:duration-300 hover:ease-in"
+                    href="https://www.youtube.com/watch?v=RqqqrOkkNE0&list=PL7RFhPC8dTOoxDIg9q1Y3mMQlY3FaniSZ&index=2"
+                    target="_blank"
+                    >Public talks playlist on youtube</a
+                  >
+                </div>
+                <div>
+                  <a
+                    class="underline decoration-teal-500 decoration-dotted decoration-2 hover:text-teal-500 hover:duration-300 hover:ease-in"
+                    href="./Katya Pavlenko_devrel.pdf"
+                    target="_blank"
+                    >Developer advocate CV</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="info-block info-block-5">
+            My favourite personal projects:
+            <ol class="projects personal">
+              <li>
+                <a
+                  class="underline decoration-teal-500 decoration-dotted decoration-2 hover:text-teal-500 hover:duration-300 hover:ease-in"
+                  href="https://night-insight.com"
+                  target="_blank"
+                  >Night insight telegram bot</a
+                >
+              </li>
+              <li>
+                <a
+                  class="underline decoration-teal-500 decoration-dotted decoration-2 hover:text-teal-500 hover:duration-300 hover:ease-in"
+                  href="https://repeater.one/"
+                  target="_blank"
+                  >Repeater telegram bot</a
+                >
+              </li>
+              <li>
+                <a
+                  class="underline decoration-teal-500 decoration-dotted decoration-2 hover:text-teal-500 hover:duration-300 hover:ease-in"
+                  href="https://github.com/cakeinpanic/jira-description-action"
+                  target="_blank"
+                  >Github aciton for integration with jira</a
+                >
+              </li>
+              <li>
+                <a
+                  class="underline decoration-teal-500 decoration-dotted decoration-2 hover:text-teal-500 hover:duration-300 hover:ease-in"
+                  href="https://ldjam.com/events/ludum-dare/49/unstable-light"
+                  target="_blank"
+                  >Ludum dare gamejam game</a
+                >
+              </li>
+              <li>
+                <a
+                  class="underline decoration-teal-500 decoration-dotted decoration-2 hover:text-teal-500 hover:duration-300 hover:ease-in"
+                  href="https://ldjam.com/events/ludum-dare/53/return-to-sender-3"
+                  target="_blank"
+                  >Another ludum dare gamejam game</a
+                >
+              </li>
+            </ol>
+          </div>
          
-    
         </div>
-        <div class="contacts flex flex-row flex-wrap gap-2">
-         
-          <a
-          class="underline decoration-teal-500 decoration-dotted decoration-2 hover:text-teal-500 hover:duration-300 hover:ease-in"
-          href="https://cakeinpanic.medium.com"
-          target="_blank"
-          >  Medium blog</a
-        > 
-         <a
-          class="underline decoration-teal-500 decoration-dotted decoration-2 hover:text-teal-500 hover:duration-300 hover:ease-in"
-          href="https://www.youtube.com/watch?v=RqqqrOkkNE0&list=PL7RFhPC8dTOoxDIg9q1Y3mMQlY3FaniSZ&index=2"
-          target="_blank"
-          >Public talks playlist on youtube</a
-        >
-        </div>
-        <div class="contacts flex flex-row flex-wrap gap-2">
-         <a
-          class="underline decoration-teal-500 decoration-dotted decoration-2 hover:text-teal-500 hover:duration-300 hover:ease-in"
-          href="./Katya Pavlenko_devrel.pdf"
-          target="_blank"
-          >Developer advocate CV</a
-        >
-        </div> 
-    
       </div>
     </main>
-<div class="parrot">
-  <a href="https://www.instagram.com/cakeinpanic/" target="_blank"><img src="https://gifdb.com/images/high/colorful-party-parrot-pirate-and-its-sword-j7zyh0nv7a6q4k75.gif" alt="parrot" /></a>
-</div>
+    <div class="parrot">
+      <a href="https://www.instagram.com/cakeinpanic/" target="_blank"
+        ><img
+          src="https://gifdb.com/images/high/colorful-party-parrot-pirate-and-its-sword-j7zyh0nv7a6q4k75.gif"
+          alt="parrot"
+      /></a>
+    </div>
     <next-route-announcer style="position: absolute"></next-route-announcer>
   </body>
+  <script src="./index.js"></script>
 </html>
