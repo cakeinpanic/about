@@ -148,12 +148,6 @@
       })();
 
       amplitude.init("9f1d7730b12b87a5aaa332d5280563f3");
-
-      document.querySelectorAll("a").forEach(function (el) {
-        el.addEventListener("click", function () {
-          amplitude.track("link", { href: el.href });
-        });
-      });
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

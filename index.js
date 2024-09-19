@@ -22,3 +22,9 @@ function addColors() {
     document.head.appendChild(styleElement);
   });
 }
+
+document.querySelectorAll("a").forEach(function (el) {
+  el.addEventListener("click", function () {
+    amplitude.track("link", { href: el.href });
+  });
+});
