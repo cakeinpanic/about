@@ -409,13 +409,15 @@ video {
 }
 
 .p-2 {
-  padding: 3rem 0.5rem;
+  padding: 3rem 0.5rem 0;
   align-items: center;
 }
 
 .info-block {
-  padding: 1rem;
-  margin-bottom: 1rem;
+  padding: .5rem;
+  margin: .5rem 0;
+ 
+ 
 }
 
 .text-2xl {
@@ -466,7 +468,10 @@ body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(to bottom, transparent, rgb(220 220 220)) rgb(255 253 253)
 }
-
+main {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+}
 .hover\:text-teal-500:hover {
   --tw-text-opacity: 1;
   color: rgb(20 184 166 / var(--tw-text-opacity));

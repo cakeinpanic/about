@@ -28,3 +28,4 @@ document.querySelectorAll("a").forEach(function (el) {
     amplitude.track("link", { href: el.href });
   });
 });
+
