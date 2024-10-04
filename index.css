@@ -414,10 +414,8 @@ video {
 }
 
 .info-block {
-  padding: .5rem;
-  margin: .5rem 0;
- 
- 
+  padding: 0.5rem;
+  margin: 0.5rem 0;
 }
 
 .text-2xl {
@@ -439,7 +437,7 @@ video {
 }
 
 .decoration-teal-500 {
-  text-decoration-color: #14b8a6;
+  text-decoration-color: var(--decoration-color);
 }
 
 .decoration-dotted {
@@ -451,22 +449,31 @@ video {
 }
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 235 235 235;
-  --background-end-rgb: 255, 255, 255;
+  --font-color: 0, 0, 0;
+  --background-start-rgb: 217 218 211;
+  --background-end-rgb: 255 253 253;
+  --decoration-color: #14b8a6;
 }
-/* 
+.contacts-row {
+  width: 100%;
+  line-height: 0.9;
+  margin: .5rem 0;
+  .contacts {
+    margin: 0 .5rem;
+  }
+}
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 217 218 211;
-    --background-end-rgb: 0, 0, 0;
+    --font-color: 255, 255, 255;
+    --background-start-rgb: 67 67 67;
+    --background-end-rgb: 255 253 253;
+    --decoration-color: #adb4b3;
   }
-} */
+}
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom, transparent, rgb(220 220 220)) rgb(255 253 253)
+  color: rgb(var(--font-color));
+  background: linear-gradient(to bottom, rgb(var(--background-start-rgb)),rgb(var(--background-end-rgb)));
 }
 main {
   max-width: 800px;
@@ -489,7 +496,7 @@ ol {
   padding-left: 2em;
   &.projects li {
     display: block;
-    margin-bottom: 3px;
+    margin-bottom:15px;
   }
 
   li {
